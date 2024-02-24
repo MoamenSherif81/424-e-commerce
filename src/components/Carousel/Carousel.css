@@ -1,0 +1,30 @@
+.carousel-prev, .carousel-next{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgba(0 0 0 / .3);
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.carousel-next{
+  right: 0;
+}
+
+.carousel-prev{
+  left: 0;
+}
+
+.home-carousel{
+  max-height: 600px;
+}

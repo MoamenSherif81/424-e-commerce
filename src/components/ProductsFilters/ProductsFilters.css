@@ -1,0 +1,7 @@
+.filter__input{
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0 0 0 / .3);
+  background-color: white;
+}

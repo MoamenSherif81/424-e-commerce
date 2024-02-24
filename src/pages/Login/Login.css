@@ -1,0 +1,21 @@
+.auth-cont{
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
